@@ -1,0 +1,15 @@
+<div class="border-start border-5">
+  <div class="m-3">
+    <p> <%= @message %></p>
+    <p>- You</p>
+  </div>
+</div>
+
+<div class="border-start border-5 bg-light bg-gradient">
+  <div class="m-3">
+    <p><%= @answer %></p>
+    <p>- Your Coach</p>
+  </div>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
